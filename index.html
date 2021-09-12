@@ -1,15 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <title>Number Guessing Game</title>
+
+    <style>
+        button{
+            color: rgb(0, 0, 0);
+            background: White;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            font-size: xx-large;
+        }
+        p{
+            font-size: 30px;
+        }
+    </style>
+
 </head>
+
 <body>
-    
+    <h1>Guess The Number</h1>
 
+    <p >The Number is between 1-10 and its an integer number</p>
+    <br>
+    <div><button onclick="numberLoop()">Start Game</button></div>
+    <br>
+    <br>
+    <div><button onclick="restartGame()">Restart Game</button></div>
 
-    <script src='script.js'></script>
+    <script src="script.js">
+    </script>
 </body>
+
 </html>
